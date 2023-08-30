@@ -1,0 +1,87 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Teko', sans-serif;
+}
+
+.fa {
+  padding-left: 20px;
+  font-size: 20px !important;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:gray;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+nav {
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  padding: 0;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
+}
+
+#roster {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+}
+
+#roster td, #roster th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#roster th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #EAC435;
+  color: black;
+}
+
+.post {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+.light-fill {
+  background-color: #f2f2f2;
+  box-shadow: -3px 3px 5px rgba(0,0,0,0.1);
+}
+
+
+.post h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+.post p {
+  margin-top: 10px;
+}
+
+.header-image {
+  background-image: url('team.jpeg');
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+  padding: 30px;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+.nav-link {
+  padding:0;
+}
+
+.navbar-brand {
+  padding:0;
+  font-size: 35px;
+}
