@@ -16,16 +16,17 @@ img, picture, video, canvas, svg {
   max-width: 640px;
 }
 
-.youtube-video {
-  aspect-ratio: 16/9;
+.youtube {
+  display: block;
   width: 100%;
   max-width: 640px;
+  aspect-ratio: 16/9;
 }
 
 .container {
   width: 85%;
-  margin: 0 auto;
   max-width: 640px;
+  margin: 0 auto;
   padding: 2em 0;
 }
 
