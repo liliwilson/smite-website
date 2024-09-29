@@ -23,7 +23,7 @@ img, picture, video, canvas, svg {
 }
 
 .container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   max-width: 640px;
   padding: 2em 0;
@@ -57,6 +57,15 @@ img, picture, video, canvas, svg {
 
 .post-list-author {
   font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.67);
+  margin-top: 0;
+}
+
+.post-title {
+  margin-bottom: 0;
+}
+
+.post-author {
   color: rgba(0, 0, 0, 0.67);
   margin-top: 0;
 }
