@@ -1,0 +1,19 @@
+---
+layout: default
+title: sMITe Film Room
+---
+
+<ul class="post-list container">
+  {% for post in site.posts %}
+    <li class="post-list-item">
+      <p class="post-list-date">{{ post.date | date_to_string: "ordinal", "US" }}</p>
+      <a href="{{ post.url | relative_url }}">
+        <div>
+          <h2 class="post-list-title">{{ post.title }}</h2>
+          <p class="post-list-author">{{ post.author }}</p>
+          <p>{{ post.abstract }}</p>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
