@@ -1,7 +1,7 @@
 # the official website of the MIT women's ultimate team: sMITe!
 
 ## dev
-to run locally, go to the root directory of this repository and run `python -m SimpleHTTPServer`
+to run locally, go to the root directory of this repository and run `python -m SimpleHTTPServer` (Python 2) or `python -m http.server` (Python 3).
 
 navigate to `localhost:8000` in a browser to view the site.
 
