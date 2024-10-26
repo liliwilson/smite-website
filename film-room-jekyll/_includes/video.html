@@ -1,1 +1,1 @@
-<p><video controls playsinline poster src="{{ "/assets/images/" | append: include.src | relative_url }}"></video></p>
+<p><video controls playsinline preload="metadata" src="{{ "/assets/images/" | append: include.src | append: "#t=0.001" | relative_url }}"></video></p>
