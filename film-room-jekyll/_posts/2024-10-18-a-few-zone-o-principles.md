@@ -4,8 +4,6 @@ author: Jenny Li
 abstract: Some basic zone offense concepts from the 2024 College Nationals final.
 ---
 
-*Note: Apologies for the video quality; unfortunately, the original ESPN broadcast is not yet available. I will probably update the clips later.*
-
 ### Overview
 
 Zone O is a unique and exciting system to play. It requires high frisbee IQ, and watching film is a great way to get familiar with common actions, reads, and plays. To start, read these summaries of zone O principles:
@@ -14,7 +12,7 @@ Zone O is a unique and exciting system to play. It requires high frisbee IQ, and
 
 ### Examples
 
-Let's dive into film. We'll break down 10 short clips.
+Let's dive into film. We'll break down 10 short clips (two different POVs from the ESPN broadcast and drone footage).
 
 A little background: this 2024 College Nationals final between UNC Pleiades and Stanford Superfly was preceded by two nail-biting semifinals. Stanford had just upset the #2 seed Vermont Ruckus largely due to their suffocating zone defense. UNC was set to defend their title for the third time in a row, and with a rock-solid offensive line, they patiently worked their way through Stanford's zone. 
 
