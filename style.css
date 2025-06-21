@@ -3,7 +3,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .fa {
-  padding-left: 20px;
+  padding-left: 8px;
   font-size: 20px !important;
   text-align: center;
   text-decoration: none;
@@ -27,7 +27,7 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 #roster td, #roster th {
@@ -45,8 +45,8 @@ nav {
 
 .post {
   background-color: #f2f2f2;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px 0px;
   box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
 }
 
@@ -55,17 +55,16 @@ nav {
   box-shadow: -3px 3px 5px rgba(0,0,0,0.1);
 }
 
-
 .post h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
 
 .post p {
-  margin-top: 10px;
+  margin: 16px 0 0 0;
 }
 
 .header-image {
-  background-image: url('team.jpeg');
+  background-image: url('team.jpg');
   background-size: cover;
   width: 100%;
   min-height: 50vw;
@@ -78,10 +77,10 @@ nav {
 }
 
 .nav-link {
-  padding:0;
+  padding: 0;
 }
 
 .navbar-brand {
-  padding:0;
+  padding: 0;
   font-size: 35px;
 }

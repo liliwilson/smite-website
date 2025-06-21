@@ -1,89 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <title>MIT Women's Ultimate</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel = "stylesheet" href = "../style.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #17335C;">
-  <a class="navbar-brand" href="#">sMITe <img height = "40px" src = "https://upload.wikimedia.org/wikipedia/commons/a/a8/Lightning_bolt_simple.png"/></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="../">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link active" href="#">Roster</a>
-      <a class="nav-item nav-link" href="../gallery">Gallery</a>
-      <a class="nav-item nav-link" href="../schedule">Schedule</a>
-      <a class="nav-item nav-link" href="../join">Join</a>
- <a class="nav-item nav-link" href="../secret"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
-  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"></path>
-</svg> Plays </a>
+    <a class="navbar-brand" href=".">sMITe <img height="40px" src="../bolt.png" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="../">Home</a>
+        <a class="nav-item nav-link active" href="../roster">Roster</a>
+        <a class="nav-item nav-link" href="../gallery">Gallery</a>
+        <a class="nav-item nav-link" href="../schedule">Schedule</a>
+        <a class="nav-item nav-link" href="../join">Join</a>
+      </div>
     </div>
-  </div>
   </nav>
 
-  <div class = "p-3">
+  <div class="p-4 my-4">
+    <h1 class="text-center">Roster</h1>
+    <p class="text-center mb-4 font-italic">(*) indicates sMITe-A captain, and (^) indicates Byte captain.</p>
 
-
-
-  <div>
-  <h1 class = "text-center mt-4"> sMITe Roster </h1>
-  <p class = "text-center mb-4 font-italic"> (*) indicates captain. </p>
-  <table class = "mx-auto" id = "roster">
-  <tr>
-  <th>Name</th>
-  <th>Major</th>
-  <th>Position</th>
-  <th>Jersey Number</th>
-  <th>Year</th>
-  </tr>
-  </table>
-  </div>
-
-  <hr class = "w-75 my-5"/>
-
-  <h1 class = "text-center mt-4"> sMITe Coaches </h1>
-
-  <div class = "row w-75 mx-auto">
-    <div class = "col-md-3">
-      <p> <h3 class = "d-inline mr-3"> Lisa Liu</h3> Lisa is a 2015 MIT alumni and former sMITe player! She can often be found layout D'ing people and sharing fun facts about a seemingly endless list of niche topics she knows about.</p>
+    <div class="overflow-auto">
+      <table class="mx-auto" id="roster">
+        <tr>
+          <th>Name</th>
+          <th>Major</th>
+          <th>Position</th>
+          <th>Number</th>
+          <th>Year</th>
+        </tr>
+      </table>
     </div>
-    <div class = "col-md-3">
-      <p> <h3 class = "d-inline mr-3"> Megan Gillen</h3> Monsoon Meegan predicted the weather and dominated the field with sMITe for two years while in graduate school before finishing her college playing eligibility in 2023. We're excited to have her back as a coach!</p>
-    </div>
-    <div class = "col-md-3">
-      <p> <h3 class = "d-inline mr-3"> Duffy </h3> Little is known about the mysterious Duffy besides the fact that she throws backhands really low to the ground and can always get under the mark's hand.</p>
-    </div>
-    <div class = "col-md-3">
-      <p> <h3 class = "d-inline mr-3"> Tom White </h3> Byte's head coach! Originally from New Zealand, you can now find him throwing buttery flick hucks with Wild Card. 0x77 0x65 0x20 0x6C 0x6F 0x76 0x65 0x20 0x74 0x6F 0x6D!</p>
-    </div>
+
+    <hr class="w-75 my-5" />
+
+    <h1 class="text-center mb-4">Coaches</h1>
+    <div class="row w-75 mx-auto" id="coaches"></div>
   </div>
 
   <!-- Bootstrap Required Scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
   <!-- D3 for loading CSV content-->
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
   <script>
     console.log("Requesting CSV content from Google...");
-    // https://docs.google.com/spreadsheets/u/0/d/15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8/export?format=csv&id=15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8&gid=0
-    d3.csv("https://docs.google.com/spreadsheets/u/0/d/15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8/export?format=csv&id=15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8&gid=0", function(data) {
+
+    d3.csv("https://docs.google.com/spreadsheets/u/0/d/15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8/export?format=csv&id=15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8&gid=0", function (data) {
       console.log(data);
-      document.getElementById("roster").innerHTML += "<tr> <td>" + data.Name + "</td> <td>" + data.Major + "</td><td> " + data.Position + "</td><td> "+ data.JerseyNumber + "</td><td> " + data.Year + "</td></tr>";
+      document.getElementById("roster").innerHTML += "<tr><td>" + data.Name + "</td><td>" + data.Major + "</td><td>" + data.Position + "</td><td>" + data.JerseyNumber + "</td><td>" + data.Year + "</td></tr>";
     });
 
+    d3.csv("https://docs.google.com/spreadsheets/u/0/d/15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8/export?format=csv&id=15fj7DM-AAdgS1U4RBe15sTKUTW7UN7Wi2Bku7Gke1u8&gid=1646258714", function (data) {
+      console.log(data);
+      
+      divElement = document.createElement("div");
+      divElement.classList.add("col-lg-4");
 
+      let name = document.createElement("h3");
+      name.innerHTML = data.Name;
+
+      let about = document.createElement("p");
+      about.innerHTML = data.About;
+
+      divElement.appendChild(name);
+      divElement.appendChild(about);
+
+      document.getElementById("coaches").appendChild(divElement)
+    });
   </script>
 
 </body>
+
 </html>
